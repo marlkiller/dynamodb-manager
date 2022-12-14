@@ -20,6 +20,6 @@ RUN cat  /etc/nginx/conf.d/default.conf
 
 RUN nginx -c /etc/nginx/nginx.conf
 
-RUN nginx -s reload
+# RUN nginx -s reload
 
 RUN echo 'fffffffffffffffcat '
