@@ -19,6 +19,4 @@ RUN nginx -c /etc/nginx/conf.d/default.conf
 
 RUN nginx -s reload
 
-RUN cat /var/log/nginx/host.access.log
-RUN cat /var/log/nginx/error.log
 RUN echo 'fffffffffffffffcat '
