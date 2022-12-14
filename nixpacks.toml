@@ -1,2 +1,6 @@
 [phases.build]
 cmds = ["echo first", "npm install && npm run build", "echo last"]
+
+
+[start]
+cmds = ["echo start first", "npm install && npm run build", "echo start last"]
