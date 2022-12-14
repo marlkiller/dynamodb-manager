@@ -9,6 +9,8 @@ RUN ls -la
 RUN echo 'fuck after'
 
 
+
+
 LABEL maintainer="taydycn@gmail.com"
 
 COPY ./dist /usr/share/nginx/html
