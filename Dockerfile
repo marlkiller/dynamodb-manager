@@ -18,7 +18,7 @@ COPY nginx_default.conf /etc/nginx/conf.d/default.conf
 RUN cat  /etc/nginx/conf.d/default.conf
 # ENTRYPOINT ["sh", "-c", "/usr/share/nginx/sbin/nginx -s reload"]
 
-RUN nohup nginx -c /etc/nginx/nginx.conf &
+# RUN nohup nginx -c /etc/nginx/nginx.conf &
 
 # RUN nginx -s reload
 
