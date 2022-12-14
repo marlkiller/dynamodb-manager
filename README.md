@@ -1,6 +1,7 @@
 # dynamodb manager
 
 This GUI tool to manage your local dynamodb.
+
 If you have a better idea, welcome to issue.
 
 ![image](https://github.com/YoyaTeam/images/blob/master/dynamodb-manager/dynamodb-manager.gif)
