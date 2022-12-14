@@ -1,3 +1,6 @@
+RUN npm install
+RUN npm run build
+
 FROM nginx
 
 LABEL maintainer="taydycn@gmail.com"
