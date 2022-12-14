@@ -1,5 +1,13 @@
+RUN echo 'fuck before'
+RUN ls -la
+
 RUN npm install
+
 RUN npm run build
+RUN ls -la
+
+RUN echo 'fuck after'
+
 
 FROM nginx
 
