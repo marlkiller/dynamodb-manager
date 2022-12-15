@@ -21,13 +21,13 @@ If you have a better idea, welcome to issue.
   * [x] Delete Item
   * [x] import/export Items
 * Search (Table or Index)
-  * [x] Scan Table 
-  * [x] Query Table 
-  * [x] Filter Condition 
+  * [x] Scan Table
+  * [x] Query Table
+  * [x] Filter Condition
 
 ## how to use
 
-Here is a sample website that can be used https://dynamodb-manager.netlify.app/, 
+Here is a sample website that can be used https://dynamodb-manager.netlify.app/,
 You can also use docker to deploy the local version. https://hub.docker.com/r/taydy/dynamodb-manager/.
 ``` bash
 docker pull taydy/dynamodb-manager
@@ -54,6 +54,12 @@ or you can build the project, and put the dist directory in amazon s3 and aliyun
 ## Build Setup
 
 ``` bash
+
+# Change node version
+npm install -g n
+# sudo n 19.1.0
+sudo n 14.21.2
+
 # install dependencies
 npm install
 
@@ -70,4 +76,4 @@ docker-compose up -d
 ## Issue
 -  **applying the configuration but get error "Configuration is not in effect!"**
 
-    please see [Cors](https://github.com/YoyaTeam/dynamodb-manager/issues/9) 
+    please see [Cors](https://github.com/YoyaTeam/dynamodb-manager/issues/9)
