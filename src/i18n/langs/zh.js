@@ -56,7 +56,8 @@ const zh = {
     },
     item_search: {
       button_create_item: '创建项目',
-      button_inport_file: '导入 JSON',
+      button_import_file: '导入 JSON',
+      button_import_item: '导入项目',
       button_delete_item: '删除项目',
       button_start_search: '开始搜索',
       button_cancel_change: '重置',
@@ -88,6 +89,10 @@ const zh = {
       upload_text_first: '将文件拖到此处，或',
       upload_text_second: '点击上传',
       comment: '只能上传 JSON 文件'
+    },
+    credential_file_import: {
+      import_title: '导入 Credential 文件',
+      comment: '只能上传 Credential 文件'
     },
     index: {
       button_created_index: '创建索引',

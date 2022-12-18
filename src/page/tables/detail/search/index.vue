@@ -2,7 +2,7 @@
   <div id="table-data-search">
     <el-row style="margin:10px 0">
       <el-button size="mini" type="success" @click="createItem">{{$t('table.item_search.button_create_item')}}</el-button>
-      <el-button size="mini" type="info" @click="fileDialogVisible = true">{{$t('table.item_search.button_inport_file')}}</el-button>
+      <el-button size="mini" type="info" @click="fileDialogVisible = true">{{$t('table.item_search.button_import_file')}}</el-button>
       <el-button size="mini" type="warning" @click="deleteItems(multipleSelection)" :disabled="multipleSelection.length === 0">{{$t('table.item_search.button_delete_item')}}</el-button>
     </el-row>
     <el-collapse v-model="activeNames">

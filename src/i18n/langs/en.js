@@ -56,7 +56,8 @@ const en = {
     },
     item_search: {
       button_create_item: 'Create Item',
-      button_inport_file: 'Import Json',
+      button_import_file: 'Import Json',
+      button_import_item: 'Import Items',
       button_delete_item: 'Delete Item',
       button_start_search: 'Start Search',
       button_cancel_change: 'Reset',
@@ -88,6 +89,10 @@ const en = {
       upload_text_first: 'Drag files here, or',
       upload_text_second: 'click upload',
       comment: 'Can only upload JSON files'
+    },
+    credential_file_import: {
+      import_title: 'Import Credential File',
+      comment: 'Can only upload Credential files'
     },
     index: {
       button_created_index: 'Create Index',
